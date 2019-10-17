@@ -1,0 +1,7 @@
+venv/
+instance/
+migrations/
+imagerepository/images
+imagerepository/__pycache__
+.flaskenv
+.DS_STORE
