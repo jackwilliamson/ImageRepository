@@ -30,8 +30,8 @@ allowed param '?private=True', which will return only the private images this us
 ## DELETE /images/mine/
 will delete all images the user uploaded
 
-## GET /images/<int:image_id>
+## GET /images/\<int:image_id\>
 returns image if public image or if logged on user is accessing their own private image
 
-## DELETE /images/<int:image_id>
+## DELETE /images/\<int:image_id\>
 deletes this image if the logged in user uploaded the image
